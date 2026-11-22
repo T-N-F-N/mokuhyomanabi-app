@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>目標実現アプリ</title>
+<meta name="theme-color" content="#4a63e7">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="目標実現">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/history.css">
+<link rel="stylesheet" href="css/egym.css">
+<link rel="stylesheet" href="css/bizsim.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">🎯 <b>目標実現アプリ</b></a>
+  <nav>
+    <a href="#/">ホーム</a>
+    <a href="#/read">📚 多読</a>
+    <a href="#/words">🔤 単語</a>
+    <a href="#/egym">🗣 英語ジム</a>
+    <a href="#/speed">⚡ 速読</a>
+    <a href="#/jhist">🏯 日本史</a>
+    <a href="#/bizsim">📈 経営</a>
+    <a href="#/review">復習<span id="dueBadge" class="nbadge"></span></a>
+    <a href="#/settings">設定</a>
+  </nav>
+  <div class="hud" id="hud"></div>
+</header>
+<main id="view"></main>
+<div id="toasts"></div>
+
+<!-- 図解で共通に使う矢印 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="mk"/></marker>
+    <marker id="ara" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="mka"/></marker>
+  </defs>
+</svg>
+
+<script src="js/app.js"></script>
+<script src="js/speed.js"></script>
+<script src="js/history.js"></script>
+<script src="js/egym.js"></script>
+<script src="js/bizsim.js"></script>
+<script src="js/pwa.js"></script>
+<!-- ===== コース（教材）: 追加するときはここに1行足す ===== -->
+<script src="courses/english.js"></script>
+<script src="courses/english-vocab.js"></script>
+<script src="courses/english-vocab2.js"></script>
+<script src="courses/english-q2.js"></script>
+<script src="courses/english-sentences.js"></script>
+<script src="courses/statistics.js"></script>
+<script src="courses/ai-engineer.js"></script>
+<script src="courses/machine-vision.js"></script>
+<script src="courses/speed-reading.js"></script>
+<script src="courses/speed-reading-2.js"></script>
+<script src="courses/math-1.js"></script>
+<script src="courses/math-3.js"></script>
+<script src="courses/math-4.js"></script>
+<script src="courses/math-5.js"></script>
+<script src="courses/math-6.js"></script>
+<script src="courses/math-7.js"></script>
+<script src="courses/math-2.js"></script>
+<script src="courses/jhist-1.js"></script>
+<script src="courses/jhist-2.js"></script>
+<script src="courses/jhist-3.js"></script>
+<script src="courses/jhist-4.js"></script>
+<script src="courses/ailit-1.js"></script>
+<script src="courses/ailit-2.js"></script>
+<script src="courses/ailit-3.js"></script>
+<script src="courses/ailit-4.js"></script>
+<script src="courses/consult-1.js"></script>
+<script src="courses/consult-2.js"></script>
+<script src="courses/consult-3.js"></script>
+<script src="courses/consult-4.js"></script>
+<!-- ===== 速読ジムの練習文: 追加するときはここに1行足す ===== -->
+<script src="speed/ja1.js"></script>
+<script src="speed/ja2.js"></script>
+<script src="speed/ja3.js"></script>
+<script src="speed/ja4.js"></script>
+<script src="speed/ja5.js"></script>
+<script src="speed/ja6.js"></script>
+<!-- ===== 多読ライブラリ: 追加するときはここに1行足す ===== -->
+<script src="readers/lv1.js"></script>
+<script src="readers/lv2.js"></script>
+<script src="readers/lv3.js"></script>
+<script src="readers/lv4.js"></script>
+<script src="readers/lv5.js"></script>
+<script src="readers/lv1b.js"></script>
+<script src="readers/lv2b.js"></script>
+<script src="readers/lv3b.js"></script>
+<script src="readers/lv4b.js"></script>
+<script src="readers/lv5b.js"></script>
+<!-- ======================================================= -->
+<script>LearnApp.start();</script>
+</body>
+</html>

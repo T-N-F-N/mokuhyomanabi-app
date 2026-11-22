@@ -1,0 +1,113 @@
+/* 多読ライブラリ Lv2 追加分（中学〜高1・230〜280語） */
+LearnApp.addReadings([
+  {
+    id: 'velcro', lv: 2, emoji: '🐕', genre: '発明', title: 'The Dog Walk That Changed Fashion', ja: '犬の散歩がファッションを変えた',
+    sum: '1941年、スイスの技術者メストラルは犬と山を散歩したあと、服と犬の毛にくっついた植物の実（ひっつき虫）を顕微鏡で見た。小さなフックが輪にひっかかっていた。それをまねて、フックの面と輪の面でとめるテープを何年もかけて開発。これがマジックテープ（面ファスナー）で、靴や宇宙服にまで使われるようになった。',
+    text: [
+      'One day in 1941, a Swiss engineer named George de Mestral went for a walk in the mountains with his dog. When they came home, he found small seeds stuck all over his pants and his dog\'s fur. They were burrs, the seeds of a wild plant.',
+      'Most people would just pull them off and throw them away. But de Mestral was curious. Why did they stick so well? He put one under a microscope.',
+      'What he saw surprised him. Each burr was covered with hundreds of tiny hooks. When the hooks touched something with small loops, like cloth or fur, they caught on the loops and held on.',
+      'De Mestral had an idea. "What if I make two strips of cloth? One with tiny hooks, and one with tiny loops. Press them together, and they will stick. Pull them apart, and they will open."',
+      'It was a simple idea, but making it was hard. For years, he tried different materials. Cotton was too soft. Finally, he found that nylon worked well. In the 1950s, he got a patent and gave the product a name: Velcro, from two French words meaning "velvet" and "hook."',
+      'At first, people thought it looked cheap. But then space engineers started to use it, because it was useful in zero gravity. Soon it was everywhere: on children\'s shoes, bags, and jackets.',
+      'Today, copying ideas from nature has a name: biomimicry. It all started with a walk, a dog, and a question: "Why?"',
+    ],
+    gloss: [['engineer', '技術者・エンジニア'], ['seeds', 'seed', '種'], ['burrs', 'burr', 'ひっつき虫（植物の実）'], ['curious', '好奇心の強い'], ['microscope', '顕微鏡'], ['hooks', 'hook', 'かぎ・フック'], ['loops', 'loop', '輪・ループ（くり返し）'], ['strips', 'strip', '細長い布・帯'], ['materials', 'material', '材料'], ['patent', '特許'], ['gravity', '重力'], ['biomimicry', '生物模倣']],
+    phrases: [['went for a walk', '散歩に出かけた（go for a walk）'], ['stuck all over', '一面にくっついた'], ['pull them off', 'それらを引きはがす（pull off）'], ['held on', 'しっかりつかまった（hold on）'], ['What if', 'もし〜したらどうだろう'], ['At first', '最初は']],
+    qs: [
+      { q: 'メストラルが顕微鏡で見つけたものは？', c: ['実の表面の小さなフックが、輪にひっかかる仕組み', '実の中の小さな虫', '犬の毛の中の種', '布の小さな穴'], a: 0, e: 'Each burr was covered with hundreds of tiny hooks ... caught on the loops.' },
+      { q: '最初、人々はこの製品をどう思いましたか？', c: ['安っぽく見えると思った', 'すぐに大人気になった', '危ないと思った', '高すぎると思った'], a: 0, e: 'At first, people thought it looked cheap.' },
+    ],
+  },
+  {
+    id: 'tomato-timer', lv: 2, emoji: '🍅', genre: '心理・学習', title: 'The Tomato Timer', ja: 'トマトのタイマー',
+    sum: '1980年代後半、イタリアの大学生チリロは勉強に集中できずに悩み、トマト形のキッチンタイマーで「10分だけ集中」を試した。やがて「25分集中＋5分休憩」を4回くり返し、長めに休む方法にまとめた。これがポモドーロ・テクニック。始めやすく、休みを先に決めるので疲れにくい。',
+    text: [
+      'In the late 1980s, a university student in Italy named Francesco Cirillo had a problem. He could not focus on his studies. He opened his books, but after a few minutes, he started thinking about other things. Hours passed, and he did very little.',
+      'One day, he found a kitchen timer in the shape of a tomato. He asked himself a simple question: "Can I really study for just ten minutes without stopping?" He set the timer and tried. It was hard, but he did it.',
+      'Cirillo kept experimenting. Finally, he made a simple system. First, choose one task. Next, set the timer for 25 minutes and work only on that task. When the timer rings, take a five-minute break. After four rounds, take a longer break of 15 to 30 minutes.',
+      'He called it the Pomodoro Technique, because "pomodoro" means "tomato" in Italian.',
+      'Why does it work? First, 25 minutes does not feel too long, so it is easy to start. Second, you know that a break is coming soon, so you do not feel tired as quickly. Third, if you think of something else, like "I need to buy milk," you write it down and go back to your task.',
+      'Today, millions of people around the world use this method for studying, writing, and work. You do not even need a tomato. Any timer will do. Why not try one round right now?',
+    ],
+    gloss: [['focus', '集中する'], ['passed', 'pass', '（時が）過ぎる'], ['timer', 'タイマー'], ['shape', '形'], ['experimenting', 'experiment', '実験する・試す'], ['system', '仕組み・方式'], ['task', '作業・課題'], ['rings', 'ring', '鳴る'], ['break', '休憩'], ['rounds', 'round', '1回・1ラウンド'], ['technique', '技術・方法'], ['method', '方法']],
+    phrases: [['in the shape of', '〜の形をした'], ['asked himself', '自問した（ask oneself）'], ['take a five-minute break', '5分の休憩をとる'], ['write it down', '書き留める（write down）'], ['will do', '間に合う・役に立つ'], ['Why not', '〜してはどう？']],
+    qs: [
+      { q: 'ポモドーロ・テクニックの基本の流れは？', c: ['25分作業して5分休む。4回したら長めに休む', '60分作業して10分休む', '10分作業して10分休む', '好きなだけ作業して、疲れたら休む'], a: 0, e: 'set the timer for 25 minutes ... take a five-minute break. After four rounds, take a longer break.' },
+      { q: '作業中に別のことを思いついたらどうしますか？', c: ['メモしてから作業にもどる', 'すぐにそれをする', 'タイマーを止める', '休憩をとる'], a: 0, e: 'you write it down and go back to your task.' },
+    ],
+  },
+  {
+    id: 'tardigrade', lv: 2, emoji: '🐻', genre: '科学', title: 'The Toughest Animal on Earth', ja: '地球でいちばんタフな動物',
+    sum: 'クマムシは体長1ミリ以下の小さな動物で、コケの中などにすむ。乾燥すると体を丸めて水分をほとんど失い「乾眠」状態になり、極端な寒さ・暑さや放射線にも耐える。2007年には宇宙空間にさらされても一部が生き残った。ただし、ふだんの活動中の状態ではそこまで強くない。',
+    text: [
+      'Imagine an animal that can survive extreme cold and heat, very little water, and even a trip to outer space. It sounds like a monster from a movie. But it is real, and it is smaller than a grain of sand.',
+      'It is called a tardigrade, or "water bear." Under a microscope, it looks like a tiny, fat bear with eight short legs. Tardigrades live almost everywhere: in moss, in the ocean, and even in your garden.',
+      'Their special power appears when their home dries up. A tardigrade pulls in its legs, curls into a ball, and loses almost all the water in its body. In this state, called a "tun," it almost stops living. It does not eat or move.',
+      'As a tun, it can survive amazing conditions. In experiments, some tardigrades survived temperatures close to minus 270 degrees Celsius and high levels of radiation. When they get water again, many of them wake up and walk away as if nothing happened.',
+      'In 2007, scientists sent tardigrades into space on a satellite. They were outside, with no air at all, for ten days. When they came back to Earth, some of them were still alive and later had babies.',
+      'But be careful: a tardigrade is not a superhero all the time. When it is active and full of water, it is much weaker. Its real secret is knowing how to wait for better days.',
+    ],
+    gloss: [['survive', '生き延びる'], ['extreme', '極端な'], ['grain', '粒'], ['moss', 'コケ'], ['curls', 'curl', '丸まる'], ['state', '状態'], ['conditions', 'condition', '条件・環境'], ['temperatures', 'temperature', '温度'], ['radiation', '放射線'], ['satellite', '人工衛星'], ['alive', '生きている'], ['active', '活動している']],
+    phrases: [['outer space', '宇宙空間'], ['dries up', '干上がる（dry up）'], ['pulls in', '引っこめる（pull in）'], ['as if nothing happened', '何事もなかったかのように'], ['all the time', 'いつも']],
+    qs: [
+      { q: 'クマムシが「タン」の状態になるのはどんなとき？', c: ['すみかが乾いたとき', 'おなかがすいたとき', '敵に会ったとき', '夜になったとき'], a: 0, e: 'Their special power appears when their home dries up.' },
+      { q: '最後の段落で筆者が伝えていることは？', c: ['活動中のクマムシはそれほど強くない', 'クマムシはいつでも無敵だ', 'クマムシは宇宙にすんでいる', 'クマムシは水がきらいだ'], a: 0, e: 'a tardigrade is not a superhero all the time. When it is active ... much weaker.' },
+    ],
+  },
+  {
+    id: 'wallets', lv: 2, emoji: '👛', genre: '心理・実験', title: 'The Lost Wallet Experiment', ja: '落とし物の財布の実験',
+    sum: '2019年に発表された研究で、研究者たちは40か国の都市で1万7千個以上の財布を「拾った」と言って受付に渡した。多くの人は、お金が入っていない財布より、お金が入った財布の方を多く持ち主に返そうとした。金額が大きいとさらに返却率が上がった。人は「どろぼうになりたくない」という気持ちを持っている。',
+    text: [
+      'Imagine you work at the front desk of a hotel. A stranger gives you a wallet and says, "I found this on the street. I\'m in a hurry. Can you take care of it?" Then the stranger leaves. Inside the wallet, there is a key, some business cards with an email address, and some money.',
+      'Would you email the owner? Many people think the answer depends on the money. If there is no money, people will return it. If there is money, people will keep it. Is that true?',
+      'A team of researchers wanted to find out. In a study published in 2019, they "lost" more than 17,000 wallets in 355 cities in 40 countries. They handed the wallets to people at banks, hotels, post offices, and police stations. Some wallets had no money, and some had money.',
+      'The result surprised almost everyone, even many experts. In most countries, people returned the wallets with money more often than the wallets without money. When the researchers put in a larger amount, even more wallets came back.',
+      'Why? The researchers asked people about it. Many said that keeping a wallet with money would feel like stealing. Nobody wants to see themselves as a thief. Also, people thought the owner would be more worried about losing a wallet with money.',
+      'So the next time you think, "People are selfish," remember the wallets. Many people are more honest than we expect.',
+    ],
+    gloss: [['stranger', '見知らぬ人'], ['wallet', '財布'], ['owner', '持ち主'], ['depends', 'depend', '〜次第である'], ['return', '返す'], ['researchers', 'researcher', '研究者'], ['published', 'publish', '発表する'], ['handed', 'hand', '手渡す'], ['amount', '量・金額'], ['stealing', 'steal', '盗む'], ['thief', 'どろぼう'], ['selfish', '自分勝手な'], ['honest', '正直な']],
+    phrases: [['front desk', '受付・フロント'], ['in a hurry', '急いでいる'], ['take care of', '〜を引き受ける・世話する'], ['find out', '（調べて）明らかにする'], ['more often than', '〜よりも頻繁に']],
+    qs: [
+      { q: '実験の結果、多くの国で起きたことは？', c: ['お金入りの財布の方がよく返された', 'お金入りの財布はほとんど返されなかった', 'どの財布もまったく返されなかった', 'お金のない財布だけが返された'], a: 0, e: 'people returned the wallets with money more often than the wallets without money.' },
+      { q: '人々が財布を返した理由として書かれているのは？', c: ['お金を持っていたら盗みのように感じるから', 'お礼がもらえると思ったから', '警察がこわいから', 'カメラで見られていたから'], a: 0, e: 'keeping a wallet with money would feel like stealing.' },
+    ],
+  },
+  {
+    id: 'sandwich', lv: 2, emoji: '🥪', genre: '歴史・ことば', title: 'Who Was Mr. Sandwich?', ja: 'サンドイッチさんって誰？',
+    sum: '「サンドイッチ」は18世紀イギリスのサンドイッチ伯爵の名前から。トランプ（賭け事）をやめたくなくて、パンに肉をはさませた、という有名な話があるが、実は机で仕事をしながら食べていたという説もある。パンに具をはさむ料理自体はもっと昔からあり、伯爵の名前が広めたにすぎない。',
+    text: [
+      'Every day, millions of people eat a sandwich for lunch. But have you ever wondered where the word comes from? It comes from a real person: John Montagu, the fourth Earl of Sandwich. He lived in England in the 1700s. "Sandwich" was not his family name. It was the name of a town connected to his title.',
+      'There is a famous story about him. The Earl loved playing cards. One night, he did not want to stop his game to eat dinner. So he asked his servant to bring him some meat between two pieces of bread. That way, he could eat with one hand, keep playing, and not get his cards dirty. Other players saw this and started ordering "the same as Sandwich."',
+      'It is a fun story, but is it true? Historians are not sure. The story first appeared in a travel book written by a Frenchman. Some historians think the Earl was not playing cards at all. He was a busy politician, and he may have eaten bread and meat at his desk because he was working late. If so, the first sandwich was a working lunch!',
+      'Also, the Earl did not invent the idea. People had put food between pieces of bread for a very long time. The Earl simply made it fashionable, and his name stuck.',
+      'So next time you eat a sandwich at your desk, you are following a very old tradition, maybe.',
+    ],
+    gloss: [['wondered', 'wonder', '不思議に思う'], ['Earl', '伯爵'], ['title', '称号・肩書き'], ['servant', '使用人'], ['historians', 'historian', '歴史家'], ['politician', '政治家'], ['invent', '発明する'], ['fashionable', '流行の'], ['tradition', '伝統']],
+    phrases: [['comes from', '〜に由来する（come from）'], ['playing cards', 'トランプをする'], ['That way', 'そうすれば'], ['keep playing', '遊び続ける（keep -ing）'], ['If so', 'もしそうなら'], ['his name stuck', '名前が定着した（stick）']],
+    qs: [
+      { q: '「サンドイッチ」という言葉の由来は？', c: ['18世紀のサンドイッチ伯爵の称号', 'パン屋の名前', 'フランスの町の料理', '砂（sand）と魔女（witch）'], a: 0, e: 'It comes from a real person: John Montagu, the fourth Earl of Sandwich.' },
+      { q: '歴史家たちの考えとして書かれているのは？', c: ['トランプではなく仕事中に食べていたのかもしれない', '伯爵がパンを発明した', '話はすべて本当だと確かめられた', '伯爵は食事をしなかった'], a: 0, e: 'Some historians think the Earl was not playing cards at all ... working late.' },
+    ],
+  },
+  {
+    id: 'interview', lv: 2, emoji: '💼', genre: '仕事の物語', title: 'The Coffee Cup Interview', ja: 'コーヒーカップの面接',
+    sum: '就職の面接を受けたアヤ。面接はうまくいったと思ったが、帰り際に社長が「カップは片付けましたか？」とたずねる。アヤは自分の分だけでなく他の人のカップも洗って返していた。社長は能力より、小さなことを見ていた。採用の電話がかかってきた。',
+    text: [
+      'Aya was nervous. It was her first job interview at a small design company. She practiced her answers again and again on the train.',
+      'In the waiting room, a woman gave her a cup of coffee. "Please wait here," she said. There were two other people waiting, too. They drank their coffee and checked their phones.',
+      'The interview went well. Aya talked about her school projects and showed her drawings. The president of the company, Mr. Hara, listened carefully and asked many questions. At the end, he smiled and said, "Thank you for coming."',
+      'Back in the waiting room, Aya picked up her empty cup. She saw that the other two people had left their cups on the table. She carried all three cups to the small kitchen, washed them, and put them on the shelf. Then she left.',
+      'Three days later, the phone rang. It was Mr. Hara. "Congratulations," he said. "We would like you to join our team."',
+      'On her first day, Aya asked him, "Why did you choose me? The other people had more experience."',
+      'Mr. Hara laughed. "Your interview was good," he said. "But many interviews are good. Our team is small. We need people who notice small things and help without being asked. The cups told me more than your answers did."',
+      'Aya smiled. She still washes the cups every day.',
+    ],
+    gloss: [['nervous', '緊張した'], ['interview', '面接'], ['practiced', 'practice', '練習する'], ['president', '社長'], ['carefully', '注意深く'], ['empty', '空の'], ['carried', 'carry', '運ぶ'], ['shelf', '棚'], ['experience', '経験'], ['notice', '気づく']],
+    phrases: [['again and again', '何度も'], ['went well', 'うまくいった（go well）'], ['picked up', '手に取った（pick up）'], ['would like you to', 'あなたに〜してほしい'], ['without being asked', '頼まれなくても']],
+    qs: [
+      { q: 'アヤが待合室でしたことは？', c: ['3つのカップをすべて洗って片付けた', '自分のカップだけ洗った', 'カップをテーブルに置いて帰った', 'コーヒーをおかわりした'], a: 0, e: 'She carried all three cups to the small kitchen, washed them.' },
+      { q: '社長がアヤを選んだ一番の理由は？', c: ['小さなことに気づき、頼まれなくても動けるから', '経験が一番多かったから', '絵が一番上手だったから', '面接の答えが完ぺきだったから'], a: 0, e: 'We need people who notice small things and help without being asked.' },
+    ],
+  },
+]);

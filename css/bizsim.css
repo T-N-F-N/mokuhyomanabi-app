@@ -1,0 +1,27 @@
+/* ===== 経営シミュレーション（js/bizsim.js） ===== */
+.bz-head h1 { margin: 0 0 8px; }
+.bz-head .stats > div { flex: 1 1 96px; }
+.stats b.good, .bz-t .good { color: var(--good); }
+.stats b.bad, .bz-t .bad { color: var(--bad); }
+.bz-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px 16px; margin: 8px 0 14px; }
+.bz-form label { display: flex; flex-direction: column; gap: 4px; font-size: .88rem; font-weight: 700; }
+.bz-form select { font: inherit; font-weight: 400; padding: 9px 10px; border-radius: 10px; border: 2px solid var(--line); background: var(--card); color: var(--ink); width: 100%; }
+.bz-form select:focus { outline: none; border-color: var(--accent); }
+.bz-plan { background: var(--bg2); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+.bz-plan h4 { margin: 0 0 4px; }
+.bz-plan .stats > div { background: var(--card); flex: 1 1 100px; }
+.bz-ev { border: 2px solid var(--warn); }
+.bz-evc { display: flex; flex-direction: column; gap: 8px; }
+.bz-evc label { display: flex; gap: 8px; align-items: flex-start; padding: 10px 12px; border: 2px solid var(--line); border-radius: 10px; cursor: pointer; line-height: 1.5; }
+.bz-evc label:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.bz-t td.num, .bz-t th { text-align: right; white-space: nowrap; }
+.bz-t td:first-child, .bz-t th:first-child { text-align: left; }
+.bz-t tr.tot td { border-top: 2px solid var(--ink2); }
+.bz-hint { margin: 8px 0 0; padding: 8px 12px; background: var(--warn-soft); border-radius: 10px; font-size: .92rem; line-height: 1.6; }
+.bz-chart { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 12px 4px; margin: 12px 0; }
+.bz-chart svg { width: 100%; height: auto; display: block; }
+.bz-rev { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.bz-rev:last-child { border-bottom: none; }
+.bz-rev p { margin: 4px 0 0; line-height: 1.7; }
+.bz-scroll { overflow-x: auto; }
+@media (max-width: 640px) { .bz-form { grid-template-columns: 1fr 1fr; } .bz-t { font-size: .85rem; } }

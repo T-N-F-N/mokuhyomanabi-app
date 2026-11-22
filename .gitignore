@@ -1,0 +1,5 @@
+# 作業用の設定（公開しない）
+.claude/
+*.bak
+Thumbs.db
+desktop.ini

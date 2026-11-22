@@ -1,0 +1,111 @@
+/* 多読ライブラリ Lv3 追加分（高校・英検2級程度・300〜400語） */
+LearnApp.addReadings([
+  {
+    id: 'checklist', lv: 3, emoji: '✅', genre: '仕事・医療', title: 'The Checklist That Saved Lives', ja: '命を救ったチェックリスト',
+    sum: '1935年、最新鋭の爆撃機の試験飛行で、ベテラン操縦士がロックを外し忘れて墜落した。対策は訓練ではなく「チェックリスト」だった。2000年代、WHOは手術用の19項目のチェックリストを作り、8か国の病院で試したところ、死亡率や合併症が大きく減った。専門家ほど基本を忘れることがある。',
+    text: [
+      'In 1935, the U.S. Army Air Corps held a competition to choose a new bomber. One plane, built by Boeing, was much more advanced than the others. Many people expected it to win easily. But on its test flight, the plane climbed into the sky, stalled, and crashed. Two of the crew died.',
+      'The cause was not a mechanical problem. The pilot, one of the most experienced in the Army, had forgotten to release a lock on the controls. The new plane simply had too many steps for one person to remember.',
+      'Some people said the plane was "too much airplane for one man to fly." But a group of test pilots came up with a simple solution. They did not ask for more training. Instead, they wrote a checklist: short, clear steps to check before takeoff, landing, and other key moments. With the checklist, the plane flew millions of miles without a serious accident, and it became famous as the B-17.',
+      'About seventy years later, doctors faced a similar problem. Surgery had become very complex, and small mistakes were common. A team working with the World Health Organization made a checklist for operations, with 19 simple items. For example: "Has the patient confirmed his or her identity?" and "Has everyone on the team introduced themselves by name and role?"',
+      'The checklist was tested in eight hospitals around the world, from rich countries to poor ones. The results, published in 2009, were striking. The rate of deaths after surgery fell from about 1.5 percent to 0.8 percent, and serious complications dropped by about one third.',
+      'Why can such a simple tool work so well? Experts are not stupid. But when they are busy and confident, they sometimes skip "obvious" steps. A checklist protects people from the most human mistake of all: thinking, "I would never forget that."',
+    ],
+    gloss: [['competition', '競争・コンテスト'], ['bomber', '爆撃機'], ['advanced', '進んだ・高度な'], ['stalled', 'stall', '失速する'], ['crashed', 'crash', '墜落する・衝突する'], ['crew', '乗組員'], ['mechanical', '機械の'], ['release', '放す・解除する・発表する'], ['takeoff', '離陸'], ['surgery', '手術'], ['complex', '複雑な'], ['confirmed', 'confirm', '確認する'], ['identity', '身元'], ['striking', '際立った'], ['complications', 'complication', '合併症'], ['confident', '自信のある'], ['obvious', '明らかな']],
+    phrases: [['came up with', '〜を思いついた（come up with）'], ['ask for', '〜を求める'], ['faced a similar problem', '似た問題に直面した（face）'], ['by about one third', '約3分の1だけ'], ['most ... of all', 'すべての中で最も〜']],
+    qs: [
+      { q: 'What caused the 1935 crash?', c: ['The pilot forgot to release a lock on the controls.', 'An engine broke during the flight.', 'The weather was very bad.', 'The pilot had no experience.'], a: 0, e: 'had forgotten to release a lock on the controls.' },
+      { q: 'What was the test pilots\' solution?', c: ['A short checklist of key steps.', 'Much longer training.', 'A simpler airplane.', 'Two pilots in every seat.'], a: 0, e: 'They did not ask for more training. Instead, they wrote a checklist.' },
+    ],
+  },
+  {
+    id: 'rubber-duck', lv: 3, emoji: '🦆', genre: 'テクノロジー・仕事', title: 'Explain It to the Duck', ja: 'アヒルに説明してごらん',
+    sum: 'プログラマーの間には「ラバーダック・デバッグ」という方法がある。バグが見つからないとき、机のゴムのアヒルにコードを1行ずつ声に出して説明すると、途中で自分で原因に気づく。説明するには、頭の中の「だいたいわかっている」を一歩ずつの言葉にする必要があるからだ。勉強にも使える。',
+    text: [
+      'Late one night, Sara, a young software engineer, was stuck. Her program was supposed to calculate the total price of items in a shopping cart, but the total was always a little wrong. She had been looking at the code for two hours. Everything looked perfect.',
+      'She went to ask Ken, a senior engineer, for help. Ken did not look at her screen. Instead, he took a small yellow rubber duck from his desk and put it in front of her. "Explain your code to the duck," he said. "Line by line. Out loud."',
+      'Sara thought it was a joke. But Ken was serious, so she started. "Okay, duck. First, I create a variable for the total and set it to zero. Then, for each item in the cart, I add the price. Then I apply the discount, and..." She stopped. "Wait. I apply the discount inside the loop. So it is applied again and again for every item." She laughed. "That\'s the bug!"',
+      'This method is called "rubber duck debugging." It became well known among programmers after it was described in a popular book about programming. The duck, of course, does nothing. The magic happens in the person who is explaining.',
+      'Why does it work? When we read our own work silently, our brain fills in gaps with what we expect to see. We skip steps because we "already know" them. But when we explain something out loud, step by step, to someone who knows nothing, we cannot skip anything. We have to put every idea into words, and the hidden mistake suddenly becomes visible.',
+      'This trick is not only for programmers. If you are studying math or English and you think you understand something, try explaining it to a duck, a pet, or an empty chair. If you get stuck, you have found exactly what you need to study next.',
+    ],
+    gloss: [['stuck', '行き詰まった'], ['calculate', '計算する'], ['senior', '先輩の・上級の'], ['serious', '真剣な'], ['variable', '変数'], ['apply', '適用する'], ['discount', '割引'], ['loop', '輪・ループ（くり返し）'], ['bug', '（プログラムの）誤り・バグ'], ['described', 'describe', '説明する・述べる'], ['silently', '黙って'], ['gaps', 'gap', 'すき間・抜け'], ['visible', '目に見える']],
+    phrases: [['was supposed to', '〜するはずだった（be supposed to）'], ['Line by line', '1行ずつ'], ['Out loud', '声に出して'], ['again and again', '何度も'], ['fills in', '〜を埋める（fill in）'], ['step by step', '一歩ずつ'], ['put every idea into words', 'すべての考えを言葉にする（put ... into words）']],
+    qs: [
+      { q: 'How did Sara find the bug?', c: ['By explaining her code out loud, line by line.', 'Ken found it on her screen.', 'She rewrote the whole program.', 'The duck pointed at the mistake.'], a: 0, e: 'she started ... "Wait. I apply the discount inside the loop."' },
+      { q: 'According to the writer, why does the method work?', c: ['Explaining out loud forces us to state every step we usually skip.', 'Ducks are good listeners.', 'Talking makes the computer run faster.', 'Senior engineers are always right.'], a: 0, e: 'we cannot skip anything. We have to put every idea into words.' },
+    ],
+  },
+  {
+    id: 'endurance', lv: 3, emoji: '🧊', genre: '実話・冒険', title: 'Twenty-Eight Men on the Ice', ja: '氷の上の28人',
+    sum: '1914年、シャクルトンの南極横断隊の船エンデュランス号は流氷に閉じこめられ、1915年に押しつぶされて沈んだ。隊員28人は氷上で暮らし、ボートでエレファント島へ。シャクルトンら6人は小さなボートで約1300kmの荒海を渡り、山を越えて捕鯨基地に到着。最終的に全員が救出された。船の残骸は2022年に海底で見つかった。',
+    text: [
+      'In 1914, the British explorer Ernest Shackleton set out to do something no one had done: walk across Antarctica from one side to the other. His ship was called the Endurance. It carried 28 men.',
+      'The plan failed before it began. In early 1915, the ship became trapped in thick sea ice. For months, the men waited, hoping the ice would open. Instead, it slowly crushed the ship. In November 1915, the Endurance sank. The men were left on the floating ice with three small boats, some tents, and their supplies, far from any other people.',
+      'Shackleton changed his goal. It was no longer to cross Antarctica. It was to bring every man home alive. He worked hard to keep up their spirits. He made sure everyone had a job, and he kept the men who complained close to him, so their bad mood would not spread.',
+      'When the ice finally broke up in April 1916, the men rowed the boats to Elephant Island, a rocky place where no ships ever came. Shackleton knew they could not wait there forever. He chose five men and sailed a seven-meter boat about 1,300 kilometers across one of the roughest seas in the world to the island of South Georgia.',
+      'After more than two weeks, they reached the island, but they were on the wrong side. Shackleton and two others had to cross icy mountains with almost no equipment. After about 36 hours, they walked into a whaling station. The workers could hardly recognize them.',
+      'Shackleton then tried several times to rescue the men left on Elephant Island. In August 1916, he finally reached them. All 22 were alive. In the end, not one member of the crew on the Endurance died.',
+      'In 2022, more than a hundred years later, scientists found the wreck of the Endurance at the bottom of the sea. Its name could still be read on the back of the ship.',
+    ],
+    gloss: [['explorer', '探検家'], ['Antarctica', '南極大陸'], ['trapped', 'trap', '閉じこめる'], ['crushed', 'crush', '押しつぶす'], ['sank', 'sink', '沈む'], ['supplies', 'supply', '物資'], ['spirits', 'spirit', '気力・元気'], ['complained', 'complain', '不平を言う'], ['spread', '広がる'], ['rowed', 'row', '（ボートを）こぐ'], ['equipment', '装備'], ['whaling', '捕鯨'], ['recognize', '見分ける・認識する'], ['rescue', '救助する'], ['wreck', '残骸・難破船']],
+    phrases: [['set out to', '〜に乗り出した（set out to）'], ['no longer', 'もはや〜ない'], ['keep up their spirits', '彼らの士気を保つ'], ['made sure', '必ず〜するようにした（make sure）'], ['broke up', '割れた（break up）'], ['could hardly', 'ほとんど〜できなかった'], ['In the end', '結局・最終的に']],
+    qs: [
+      { q: 'What became Shackleton\'s new goal after the ship sank?', c: ['To bring every man home alive.', 'To cross Antarctica on foot.', 'To find a new ship on the ice.', 'To reach Elephant Island and stay there.'], a: 0, e: 'It was no longer to cross Antarctica. It was to bring every man home alive.' },
+      { q: 'Why did Shackleton keep the men who complained close to him?', c: ['So their bad mood would not spread to others.', 'Because they were the strongest.', 'To give them extra food.', 'Because they knew the way.'], a: 0, e: 'so their bad mood would not spread.' },
+    ],
+  },
+  {
+    id: 'mistaken-orders', lv: 3, emoji: '🍜', genre: '社会・実話', title: 'The Restaurant of Mistaken Orders', ja: '注文をまちがえる料理店',
+    sum: '2017年、東京で数日だけの「注文をまちがえる料理店」が開かれた。ホール係は認知症のある人たち。注文がまちがっても、客はそれを楽しむ。発案したテレビ局のディレクターは、取材先でハンバーグのはずが餃子が出てきた経験から思いついた。「まちがえてもいいじゃない」という空気が、働く人の自信と笑顔を生んだ。',
+    text: [
+      'Imagine you order a hamburger at a restaurant, and the server brings you dumplings instead. In most places, you might be annoyed. But in one restaurant in Tokyo, customers smiled. Some even hoped it would happen.',
+      'In 2017, a pop-up restaurant opened in Tokyo for just a few days. It was called "The Restaurant of Mistaken Orders." All the servers were people living with dementia, a condition that makes it hard to remember things. The menu was simple, and the food was made by professional cooks. But the servers might forget who ordered what, or bring the wrong dish.',
+      'The idea came from a TV director named Shiro Oguni. Years earlier, he had visited a care home for people with dementia to make a program. The residents made lunch for him. He was told it would be hamburgers, but dumplings came out. He almost said, "This is wrong." Then he stopped himself. "Does it really matter?" he thought. The dumplings were delicious, and everyone was happy.',
+      'At the restaurant, a sign explained the rule to customers: some orders may be wrong, but please enjoy it. Many orders did come out right. When mistakes happened, customers often traded dishes with the people at the next table and laughed together. The servers, many of whom had once worked in shops or offices, enjoyed working and talking with people again.',
+      'The event received a lot of attention around the world, and similar events were later held in other places. Its message was simple but powerful. A society can be designed so that people who make mistakes still have a place to work and to be useful. Sometimes, the most important change is not in the people who make mistakes, but in the people around them.',
+    ],
+    gloss: [['server', '給仕係'], ['dumplings', 'dumpling', '餃子・団子'], ['annoyed', 'いらいらした'], ['customers', 'customer', '客'], ['dementia', '認知症'], ['condition', '状態・病気'], ['professional', 'プロの・専門家'], ['director', 'ディレクター・監督'], ['residents', 'resident', '入居者・住民'], ['delicious', 'おいしい'], ['traded', 'trade', '交換する'], ['attention', '注目'], ['society', '社会'], ['designed', 'design', '設計する']],
+    phrases: [['pop-up', '期間限定の'], ['living with', '〜と共に生きる（病気などを抱えて）'], ['who ordered what', '誰が何を注文したか'], ['came out', '出てきた（come out）'], ['stopped himself', '思いとどまった'], ['many of whom', 'そのうちの多くは']],
+    qs: [
+      { q: 'Where did the idea for the restaurant come from?', c: ['A director was served dumplings instead of hamburgers at a care home.', 'A chef forgot many orders.', 'Customers asked for a new kind of restaurant.', 'A TV show about cooking.'], a: 0, e: 'He was told it would be hamburgers, but dumplings came out.' },
+      { q: 'What is the main message of the story?', c: ['Society can be designed so people who make mistakes still have a place.', 'Restaurants should never make mistakes.', 'Dumplings are better than hamburgers.', 'People with dementia should not work.'], a: 0, e: 'A society can be designed so that people who make mistakes still have a place to work.' },
+    ],
+  },
+  {
+    id: 'dunbar', lv: 3, emoji: '👥', genre: '心理・社会', title: 'How Many Friends Can You Have?', ja: '友だちは何人まで持てる？',
+    sum: '人類学者ダンバーは、サルの脳の大きさと群れの大きさの関係から、人間が安定した関係を保てるのは約150人と予測した（ダンバー数）。さらに、親しさには5人・15人・50人・150人という層があるという。正確な数には異論もあるが、時間と注意には限りがあるので「誰に時間を使うか」を選ぶことが大切だ。',
+    text: [
+      'You might have hundreds of friends on social media. But how many people can you really know? A British scientist named Robin Dunbar has an answer: about 150.',
+      'In the early 1990s, Dunbar studied monkeys and apes. He noticed that species with larger brains, especially a larger outer layer of the brain, lived in larger groups. Keeping track of who is a friend, who is an enemy, and who owes whom a favor is hard work for the brain. Based on the size of the human brain, he predicted that people can maintain about 150 stable relationships.',
+      'Then he looked for evidence. He found that many human groups seem to be around that size: villages in traditional societies, basic units in some armies, and even the number of people to whom many families sent holiday cards. This number became known as "Dunbar\'s number."',
+      'Dunbar also suggested that our relationships form layers, like circles inside circles. In the center, there are about 5 people who are your closest friends and family. Next, there are about 15 good friends, then about 50 friends, and then about 150 meaningful contacts. Each layer is roughly three times bigger than the one inside it.',
+      'Not all scientists agree. Some say the number could be much smaller or much larger, and that it depends on the person and the culture. Others point out that the method used to estimate it is not very precise.',
+      'Still, the basic idea is useful. Our time and attention are limited. If you spend hours every day reacting to hundreds of online contacts, you may have less energy for the five people at the center of your circle. Maybe the real question is not "How many friends do I have?" but "Who deserves my time?"',
+    ],
+    gloss: [['apes', 'ape', '類人猿'], ['species', '（生物の）種'], ['layer', '層'], ['enemy', '敵'], ['owes', 'owe', '借りがある'], ['predicted', 'predict', '予測する'], ['maintain', '維持する'], ['stable', '安定した'], ['evidence', '証拠'], ['traditional', '伝統的な'], ['meaningful', '意味のある'], ['roughly', 'おおよそ'], ['estimate', '見積もる'], ['precise', '正確な'], ['deserves', 'deserve', '〜に値する']],
+    phrases: [['social media', 'SNS'], ['Keeping track of', '〜を把握しておく（keep track of）'], ['Based on', '〜に基づいて'], ['became known as', '〜として知られるようになった'], ['point out', '指摘する']],
+    qs: [
+      { q: 'How did Dunbar first arrive at the number 150?', c: ['From the relationship between brain size and group size in monkeys and apes.', 'By counting friends on social media.', 'By asking people how many friends they had.', 'From the size of modern cities.'], a: 0, e: 'species with larger brains ... lived in larger groups. Based on the size of the human brain, he predicted ...' },
+      { q: 'What does the writer suggest in the last paragraph?', c: ['Choose carefully whom to spend your limited time on.', 'Try to have as many friends as possible.', 'Stop using social media completely.', 'Dunbar\'s number is exactly correct.'], a: 0, e: '"Who deserves my time?"' },
+    ],
+  },
+  {
+    id: 'orange-box', lv: 3, emoji: '✈️', genre: 'テクノロジー', title: 'Why the Black Box Is Orange', ja: 'ブラックボックスはなぜオレンジ色？',
+    sum: '飛行機の「ブラックボックス」は、操縦室の音声を記録するCVRと、飛行データを記録するFDRの2つ。事故後に見つけやすいよう明るいオレンジ色で、衝撃や火、深海の水圧に耐える。水中では信号を発して位置を知らせる。オーストラリアの科学者ウォーレンの発案が始まり。記録は責任追及より再発防止のために使われる。',
+    text: [
+      'When a plane crashes, news reports often say, "Investigators are searching for the black box." But if you ever see one, you may be surprised. It is not black. It is bright orange.',
+      'The bright color has a simple purpose: to make it easy to find among the wreckage after an accident. And there is not just one box. Most large planes carry two. The cockpit voice recorder records the sounds in the cockpit, including the pilots\' conversations and alarms. The flight data recorder records many measurements, such as speed, height, and the position of the controls, many times every second.',
+      'These boxes are built to survive terrible conditions. They are designed to withstand a very strong impact, a hot fire, and the high pressure of the deep sea. They are usually placed in the tail of the plane, because that part is often less damaged in a crash. If a plane falls into the ocean, a small device on the recorder sends out a signal for about a month to help searchers find it.',
+      'The idea came from an Australian scientist named David Warren in the 1950s. He was investigating a crash and thought, "If only we knew what the pilots heard and said in the last minutes." At first, some pilots did not like the idea of being recorded. But over time, the recorders became required on large aircraft in many countries.',
+      'Why is it called a "black box" if it is orange? Nobody is completely sure. In engineering, a "black box" can mean a device whose inside you cannot see, and the name may simply have stuck.',
+      'The most important thing about the recorders is how the information is used. The main goal of an investigation is not to blame someone. It is to understand what happened, so that the same accident never happens again. This is one reason flying has become one of the safest ways to travel.',
+    ],
+    gloss: [['investigators', 'investigator', '調査官'], ['purpose', '目的'], ['wreckage', '残骸'], ['cockpit', '操縦室'], ['recorder', '記録装置'], ['measurements', 'measurement', '測定値'], ['withstand', '耐える'], ['impact', '衝撃'], ['pressure', '圧力'], ['device', '装置'], ['signal', '信号'], ['required', 'require', '義務づける・必要とする'], ['aircraft', '航空機'], ['blame', '責める']],
+    phrases: [['such as', '例えば〜のような'], ['sends out', '発信する（send out）'], ['If only', '〜でさえあればなあ'], ['over time', '時間がたつにつれて'], ['may simply have stuck', '単に定着しただけかもしれない'], ['so that', '〜するように']],
+    qs: [
+      { q: 'Why are the recorders usually placed in the tail?', c: ['That part is often less damaged in a crash.', 'It is close to the pilots.', 'It is the heaviest part.', 'It is easy to see from outside.'], a: 0, e: 'because that part is often less damaged in a crash.' },
+      { q: 'What is the main goal of using the recorded information?', c: ['To understand what happened and prevent the same accident.', 'To find someone to blame.', 'To check the pilots\' private talk.', 'To sell the data.'], a: 0, e: 'The main goal ... is not to blame someone ... so that the same accident never happens again.' },
+    ],
+  },
+]);
